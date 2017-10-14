@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
     this.bookService.authniticateUser(uName,pwd).subscribe(state => {
       this.state = state;
       if(this.state){
-       this.router.navigate(['/home/cart']);
+       this.router.navigate(['/home']);
       }
       else{
         this.showError=true;
