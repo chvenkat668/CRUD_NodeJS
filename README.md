@@ -2,7 +2,7 @@
 
 install Latest Angular@cli 
 
-## backed
+## backend
 -> backend folder has DB connections and api's 
 1. node server.js - to start node server for api[http://localhost:5000]
 2. DB dumb exits src/db_bkp/ngStore
